@@ -13,7 +13,7 @@ pipeline {
            }
        }
        
-       }
+       
        stage('Initialize Terraform') {
            steps {
                script {
