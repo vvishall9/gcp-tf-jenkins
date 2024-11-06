@@ -2,7 +2,7 @@ pipeline {
    agent any
    environment {
        GOOGLE_CREDENTIALS = credentials('gcp-key') // Jenkins credential ID for GCP Service Account
-       TF_VAR_project = 'dev-gce-test'
+       
        GIT_TOKEN = credentials('git-token')
    }
    stages {
