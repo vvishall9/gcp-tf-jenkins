@@ -9,20 +9,14 @@ pipeline {
        stage('Checkout') {
            steps {
                // Checkout the code from GitHub repository
-               git branch: 'main', url: 'https://github.com/username/repository.git'
+               git branch: 'main', url: 'https://${GIT_TOKEN}@github.com/vvishall9/gcp-tf-jenkins.git'
            }
        }
        stage('Setup Terraform') {
            steps {
                // Install Terraform if not already installed or use Terraform plugin
-               sh 'curl -fsSL
-https://apt.releases.hashicorp.com
-/gpg">
-https://apt.releases.hashicorp.com
-/gpg | sudo apt-key add -'
-               sh 'sudo apt-add-repository "deb
-https://apt.releases.hashicorp.com
-$(lsb_release -cs) main"'
+               sh 'curl -fsSL https://apt.releases.hashicorp.com /gpg | sudo apt-key add -'
+               sh 'sudo apt-add-repository "deb https://apt.releases.hashicorp.com $(lsb_release -cs) main"'
                sh 'sudo apt-get update && sudo apt-get install terraform'
            }
        }
