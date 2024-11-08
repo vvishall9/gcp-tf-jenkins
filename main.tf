@@ -8,11 +8,11 @@ resource "google_storage_bucket" "google_storage_bucket-003" {
 }
 
 
-/*
+
 resource "google_compute_network" "vpc_network" {
-  project                 = "dev-gce-test"
+  project                 = "gcp-host"
   name                    = "host-vpc"
   auto_create_subnetworks = false
   mtu                     = 1460
-} */
+} 
 
