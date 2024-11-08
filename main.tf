@@ -63,7 +63,7 @@ resource "google_compute_instance" "default" {
   
   network_interface {
     network = "host-vpc"
-    subnetwork = "test-subnet-001"
+    subnetwork_project = "test-subnet-001"
 
     access_config {
       // Ephemeral public IP
