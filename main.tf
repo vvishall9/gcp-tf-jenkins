@@ -1,5 +1,5 @@
 resource "google_storage_bucket" "google_storage_bucket-003" {
-  name          = "infra-cicd-bucket-jenkins-011"
+  name          = "infra-cicd-bucket-jenkins-001"
   location      = "US"
   project       = "dev-gce-test"
   force_destroy = true
@@ -10,7 +10,7 @@ resource "google_storage_bucket" "google_storage_bucket-003" {
 
 terraform {
  backend "gcs" {
-   bucket = "infra-cicd-bucket-jenkins-011"
+   bucket = "infra-cicd-bucket-jenkins-001"
    
              
  }
