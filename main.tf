@@ -17,6 +17,7 @@ resource "google_compute_subnetwork" "network-with-private-secondary-ip-ranges" 
   name          = "test-subnet-001"
   ip_cidr_range = "10.2.0.0/28"
   region        = "us-central1"
+  project       = "dev-gce-test"
   network       = google_compute_network.vpc_network.id
   secondary_ip_range {
     range_name    = "tf-test-secondary-range-update1"
@@ -27,12 +28,13 @@ resource "google_compute_subnetwork" "network-with-private-secondary-ip-ranges" 
 
 resource "google_compute_subnetwork" "network-with-private-secondary-ip-ranges-001" {
   name          = "test-subnet-002"
-  ip_cidr_range = "10.2.0.0/28"
+  ip_cidr_range = "10.1.0.0/28"
   region        = "us-east1"
+  project       = "dev-gce-test"
   network       = google_compute_network.vpc_network.id
   secondary_ip_range {
     range_name    = "tf-test-secondary-range-update2"
-    ip_cidr_range = "192.168.10.0/24"
+    ip_cidr_range = "192.167.10.0/24"
   }
   depends_on = [ google_compute_network.vpc_network ]
 }
