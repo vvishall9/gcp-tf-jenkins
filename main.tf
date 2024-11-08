@@ -1,5 +1,4 @@
 
-
 resource "google_compute_network" "vpc_network" {
   project                 = "gcp-host"
   name                    = "host-vpc"
