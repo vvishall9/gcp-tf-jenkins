@@ -10,7 +10,7 @@ resource "google_storage_bucket" "google_storage_bucket-003" {
 
 terraform {
  backend "gcs" {
-   bucket = "infra-cicd-bucket-jenkins-001"
+   bucket = "infra-cicd-bucket-jenkins"
    prefix = "terraform/state-files" 
              
  }
