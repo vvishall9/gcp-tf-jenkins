@@ -44,6 +44,7 @@ resource "google_compute_subnetwork" "network-with-private-secondary-ip-ranges-0
 
 resource "google_compute_instance" "default" {
   name         = "dev-test-001"
+  project       = "dev-gce-test"
   machine_type = "n2-standard-2"
   zone         = "us-central1-a"
 
