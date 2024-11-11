@@ -41,7 +41,7 @@ resource "google_compute_subnetwork" "network-with-private-secondary-ip-ranges-0
 
 
 # Creating Virtual Machine
-
+/*
 resource "google_compute_instance" "default" {
   name         = "dev-test-001"
   project       = "dev-gce-test"
@@ -82,7 +82,7 @@ resource "google_compute_instance" "default" {
     scopes = ["cloud-platform"]
   }
 }
-
+*/
 /*
 resource "google_compute_shared_vpc_host_project" "host" {
   project = "dev-gce-test"
