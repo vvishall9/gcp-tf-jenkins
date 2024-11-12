@@ -1,3 +1,4 @@
+/*
 resource "google_storage_bucket" "google_storage_bucket-003" {
   name          = "infra-cicd-bucket-jenkins-001"
   location      = "US"
@@ -6,7 +7,7 @@ resource "google_storage_bucket" "google_storage_bucket-003" {
 
   public_access_prevention = "enforced"
 }
-
+*/
 resource "google_compute_network" "vpc_network" {
   project                 = "dev-gce-test"
   name                    = "host-vpc"
