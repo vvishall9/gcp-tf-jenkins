@@ -8,7 +8,7 @@ resource "google_storage_bucket" "google_storage_bucket-003" {
 }
 
 resource "google_storage_bucket" "google_storage_bucket-004" {
-  name          = "infra-cicd-bucket-jenkins-005"
+  name          = "infra-cicd-bucket-jenkins-006"
   location      = "US"
   project       = "hcl2025"
   force_destroy = true
