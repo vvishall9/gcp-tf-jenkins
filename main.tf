@@ -1,4 +1,3 @@
-/*
 resource "google_storage_bucket" "google_storage_bucket-003" {
   name          = "infra-cicd-bucket-jenkins-001"
   location      = "US"
@@ -7,7 +6,7 @@ resource "google_storage_bucket" "google_storage_bucket-003" {
 
   public_access_prevention = "enforced"
 }
-*/
+/*
 resource "google_compute_network" "vpc_network" {
   project                 = "dev-gce-test"
   name                    = "host-vpc"
@@ -40,7 +39,7 @@ resource "google_compute_subnetwork" "network-with-private-secondary-ip-ranges-0
   depends_on = [ google_compute_network.vpc_network ]
 }
 
-
+*/
 # Creating Virtual Machine
 /*
 resource "google_compute_instance" "default" {
