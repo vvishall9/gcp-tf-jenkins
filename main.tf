@@ -6,6 +6,15 @@ resource "google_storage_bucket" "google_storage_bucket-003" {
 
   public_access_prevention = "enforced"
 }
+
+resource "google_storage_bucket" "google_storage_bucket-004" {
+  name          = "infra-cicd-bucket-jenkins-005"
+  location      = "US"
+  project       = "hcl2025"
+  force_destroy = true
+
+  public_access_prevention = "enforced"
+}
 /*
 resource "google_compute_network" "vpc_network" {
   project                 = "dev-gce-test"
