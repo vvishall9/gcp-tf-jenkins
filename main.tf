@@ -6,9 +6,6 @@ module "Network"{
   source = "./Network"
 }
 
-module "Subnets"{
-  source = "./Subnets"
-}
 
 
 
