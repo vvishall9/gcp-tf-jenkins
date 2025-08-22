@@ -1,7 +1,7 @@
 module "Storage-Bucket"{
   source = "./Bucket"
 }
-
+/*
 module "Network"{
   source = "./Network"
 }
@@ -9,7 +9,7 @@ module "Network"{
 module "Compute"{
   source = "./Compute"
 }
-
+*/
 /*
 resource "google_compute_instance" "vm_instance" {
     name = "simple-vm"
