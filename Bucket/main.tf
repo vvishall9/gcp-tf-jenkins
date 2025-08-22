@@ -6,14 +6,7 @@ resource "google_storage_bucket" "google_storage_bucket-001" {
 
   public_access_prevention = "enforced"
 }
-resource "google_storage_bucket" "google_storage_bucket-102" {
-  name          = "infra-cicd-bucket-jenkins-gcp-new"
-  location      = "US"
-  project       = "cloud-factory-gcp-platform"
-  force_destroy = true
 
-  public_access_prevention = "enforced"
-}
 
 
 
