@@ -21,6 +21,23 @@ pipeline {
             }
         }
         
+        stage('Terraform Fmt') {
+            steps {
+                script {
+                    sh 'terraform fmt'
+                }
+            }
+        }
+
+        stage('Terraform validate') {
+            steps {
+                script {
+                    sh 'terraform validate'
+                }
+            }
+        }
+
+        
         stage('Terraform Plan') {
             steps {
                 script {
