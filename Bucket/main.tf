@@ -1,3 +1,4 @@
+/*
 resource "google_storage_bucket" "google_storage_bucket-009" {
   name          = "infra-cicd-bucket-jenkins-008"
   location      = "US"
@@ -6,3 +7,4 @@ resource "google_storage_bucket" "google_storage_bucket-009" {
 
   public_access_prevention = "enforced"
 }
+*/
