@@ -1,5 +1,5 @@
-resource "google_storage_bucket" "google_storage_bucket-009" {
-  name          = "infra-cicd-bucket-jenkins-008"
+resource "google_storage_bucket" "google_storage_bucket-088" {
+  name          = "infra-cicd-bucket-jenkins-003"
   location      = "US"
   project       = "hcl2025"
   force_destroy = true
