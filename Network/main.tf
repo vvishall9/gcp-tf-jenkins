@@ -1,3 +1,4 @@
+/*
 resource "google_compute_network" "vpc_network" {
   project                 = "hcl2025"
   name                    = "host-vpc"
@@ -17,3 +18,5 @@ resource "google_compute_subnetwork" "network-with-private-secondary-ip-ranges" 
   }
   depends_on = [ google_compute_network.vpc_network ]
 }
+
+*/

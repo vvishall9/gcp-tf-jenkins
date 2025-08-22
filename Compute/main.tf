@@ -1,3 +1,4 @@
+/*
 resource "google_compute_instance" "vm_instance" {
     name = "simple-vm"
     machine_type = "e2-micro"
@@ -18,3 +19,6 @@ network_interface {
    }
  }
 }
+
+
+*/
