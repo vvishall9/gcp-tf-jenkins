@@ -6,7 +6,9 @@ module "Network"{
   source = "./Network"
 }
 
-
+module "Compute"{
+  source = "./Compute"
+}
 
 
 /*
