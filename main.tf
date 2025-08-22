@@ -2,6 +2,14 @@ module "Storage-Bucket"{
   source = "./Bucket"
 }
 
+module "Network"{
+  source = "./Network"
+}
+
+module "Subnets"{
+  source = "./Subnets"
+}
+
 
 
 /*
