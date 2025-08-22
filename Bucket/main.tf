@@ -1,0 +1,18 @@
+resource "google_storage_bucket" "google_storage_bucket-009" {
+  name          = "infra-cicd-bucket-jenkins-008"
+  location      = "US"
+  project       = "hcl2025"
+  force_destroy = true
+
+  public_access_prevention = "enforced"
+}
+
+resource "google_storage_bucket" "google_storage_bucket-008" {
+  name          = "infra-cicd-bucket-jenkins-004"
+  location      = "US"
+  project       = "hcl2025"
+  force_destroy = true
+
+  public_access_prevention = "enforced"
+}
+
