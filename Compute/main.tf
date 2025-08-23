@@ -11,7 +11,7 @@ boot_disk {
     }
 
 network_interface {
-    network = "default"
+    network = "gcp-vpc"
     
     access_config {
 // Ephemeral public IP
