@@ -1,7 +1,7 @@
 resource "google_storage_bucket" "google_storage_bucket-001" {
-  name          = "infra-cicd-bucket-jenkins"
-  location      = "US"
-  project       = "cloud-factory-gcp-platform"
+  name          =  var.Bucket-name
+  location      =  var.Region
+  project       =  var.Project
   force_destroy = true
 
   public_access_prevention = "enforced"

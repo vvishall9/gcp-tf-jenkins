@@ -1,5 +1,9 @@
 module "Storage-Bucket"{
   source = "./Bucket"
+  Bucket-name = "${var.Bucket-name}"
+  Region = "${var.Region}"
+  Project = "${var.Project}"
+  
 }
 
 module "Compute"{
