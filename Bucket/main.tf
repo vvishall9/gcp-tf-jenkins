@@ -1,4 +1,4 @@
-resource "google_storage_bucket" "google_storage_bucket-001" {
+resource "google_storage_bucket" "google_storage_bucket-002" {
   name          =  var.Bucket-name
   location      =  var.Region
   project       =  var.Project
