@@ -1,5 +1,5 @@
 resource "google_compute_instance" "vm_instance" {
-    name = "simple-vm-01"
+    name = "simple-vm"
     machine_type = "e2-micro"
     zone = "us-central1-a"
     project  = "cloud-factory-gcp-platform"
