@@ -11,8 +11,8 @@ boot_disk {
     }
 
 network_interface {
-    network = "gcp-vpc"
-    subnetwork = "subnet1"
+    network = "projects/cloud-factory-gcp-platform/global/networks/gcp-vpc"
+    subnetwork = "projects/cloud-factory-gcp-platform/regions/us-central1/subnetworks/subnet1"
     
     access_config {
 // Ephemeral public IP
