@@ -12,6 +12,7 @@ boot_disk {
 
 network_interface {
     network = "gcp-vpc"
+    subnetwork = "subnet1"
     
     access_config {
 // Ephemeral public IP
