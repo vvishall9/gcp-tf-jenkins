@@ -1,3 +1,3 @@
-Bucket-name= "gcp-bucket-new"
+Bucket-name= "gcp-bucket"
 Region= "US"
 Project = "cloud-factory-gcp-platform"
