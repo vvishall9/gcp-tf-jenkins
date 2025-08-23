@@ -1,7 +1,7 @@
 resource "google_compute_instance" "vm_instance" {
     name = "simple-vm-01"
     machine_type = "e2-micro"
-    zone = "asia-south1-c"
+    zone = "us-central1-a"
     project  = "cloud-factory-gcp-platform"
 
 boot_disk {
