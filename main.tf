@@ -1,13 +1,14 @@
 module "Storage-Bucket"{
   source = "./Bucket"
 }
-/*
-module "Network"{
-  source = "./Network"
-}
 
 module "Compute"{
   source = "./Compute"
+}
+
+/*
+module "Network"{
+  source = "./Network"
 }
 */
 /*
