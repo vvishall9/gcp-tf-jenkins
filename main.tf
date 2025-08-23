@@ -6,11 +6,10 @@ module "Compute"{
   source = "./Compute"
 }
 
-/*
 module "Network"{
   source = "./Network"
 }
-*/
+
 /*
 resource "google_compute_instance" "vm_instance" {
     name = "simple-vm"
