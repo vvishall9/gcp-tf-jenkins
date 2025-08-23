@@ -1,3 +1,4 @@
+/*
 resource "google_compute_network" "vpc_network" {
   project                 = "cloud-factory-gcp-platform"
   name                    = "host-vpc"
@@ -17,4 +18,6 @@ resource "google_compute_subnetwork" "network-with-private-secondary-ip-ranges" 
   }
   depends_on = [ google_compute_network.vpc_network ]
 }
+
+*/
 
