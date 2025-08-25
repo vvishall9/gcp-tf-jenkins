@@ -1,3 +1,3 @@
-Bucket-name= "gcp-bucket-new-vishal"
+Bucket-name= "gcp-bucket-new-oneclick"
 Region= "US"
 Project = "cloud-factory-gcp-platform"
