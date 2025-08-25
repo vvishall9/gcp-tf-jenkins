@@ -1,4 +1,4 @@
-/*
+
 module "Storage-Bucket"{
   source = "./Bucket"
   Bucket-name = "${var.Bucket-name}"
@@ -14,7 +14,7 @@ module "Compute"{
 module "Network"{
   source = "./Network"
 }
-*/
+
 
 
 /*
