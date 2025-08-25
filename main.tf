@@ -1,3 +1,4 @@
+/*
 module "Storage-Bucket"{
   source = "./Bucket"
   Bucket-name = "${var.Bucket-name}"
@@ -13,6 +14,8 @@ module "Compute"{
 module "Network"{
   source = "./Network"
 }
+
+*/
 
 /*
 resource "google_compute_instance" "vm_instance" {
