@@ -1,4 +1,3 @@
-/*
 resource "google_storage_bucket" "google_storage_bucket-002" {
   name          =  var.Bucket-name
   location      =  var.Region
@@ -7,7 +6,7 @@ resource "google_storage_bucket" "google_storage_bucket-002" {
 
   public_access_prevention = "enforced"
 }
-*/
+
 
 
 
